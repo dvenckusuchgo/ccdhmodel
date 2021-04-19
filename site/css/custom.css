@@ -1,0 +1,12 @@
+.wy-menu-vertical ul {
+  margin: 0 0 0 24px;
+}
+.wy-menu-vertical ul:first-child {
+  margin: 0;
+}
+.wy-menu-vertical span.caption-text {
+  margin: 0 0 0 16px;
+}
+.wy-menu-vertical li.current a {
+  padding-left: 2em;
+}

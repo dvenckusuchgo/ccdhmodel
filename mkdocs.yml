@@ -1,0 +1,25 @@
+site_name: CRDC-H Documentation
+theme:
+    name: readthedocs
+    custom_dir: custom_theme
+    highlightjs: true
+
+use_directory_urls: true
+
+plugins:
+    - search
+    - awesome-pages
+    - exclude:
+        glob:
+            - "docs/hooks/*"
+            - "*/favicon-16x16.png"
+    # See mkdocs event hooks: https://www.mkdocs.org/user-guide/plugins/#events
+    - mkdocs-simple-hooks:
+        hooks:
+            on_pre_build: "docs.hooks.prebuild:prebuild"
+            on_post_build: "docs.hooks.postbuild:postbuild"
+    
+
+markdown_extensions:
+    - mdx_truly_sane_lists
+

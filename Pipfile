@@ -1,13 +1,18 @@
 [[source]]
-name = "pypi"
 url = "https://pypi.org/simple"
 verify_ssl = true
+name = "pypi"
+
+[packages]
+linkml = "*"
+mkdocs-awesome-pages-plugin = "*"
+mdx-truly-sane-lists = "*"
+mkdocs = "*"
+mkdocs-simple-hooks = "*"
+mkdocs-exclude = "*"
 
 [dev-packages]
 pytest = "*"
 
-[packages]
-biolinkml = ">=1.7.0"
-
 [requires]
-python_version = "3.8"
+python_version = "3.9"

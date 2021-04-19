@@ -1,0 +1,6 @@
+nav:
+    - CCDH-MVP: index.md
+    - ... | index.md 
+    - classes | classes/*.md
+    - slots | slots/*.md
+    - types | types/*.md

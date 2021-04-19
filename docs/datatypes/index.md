@@ -7,28 +7,28 @@
 
 ### Classes
 
- * [CodeableConcept](CodeableConcept.md)
- * [Coding](Coding.md) - A structured representation of a coded/enumerated data value, that includes additional metadata about the code and code system.
- * [Identifier](Identifier.md)
- * [Quantity](Quantity.md) - A structured object to represent an amount of something (e.g., weight, mass, length, duration of time) - including a value and unit.
+ * [CodeableConcept](classes/CodeableConcept.md)
+ * [Coding](classes/Coding.md) - A structured representation of a coded/enumerated data value, that includes additional metadata about the code and code system.
+ * [Identifier](classes/Identifier.md)
+ * [Quantity](classes/Quantity.md) - A structured object to represent an amount of something (e.g., weight, mass, length, duration of time) - including a value and unit.
 
 ### Mixins
 
 
 ### Slots
 
- * [➞coding](codeableConcept__coding.md) - A reference to a code defined by a terminology system
- * [➞text](codeableConcept__text.md) - A human language representation of the concept represented by the Coding
- * [➞code](coding__code.md) - The value of the code itself.
- * [➞display](coding__display.md) - A human-readable name for the code.
- * [➞system](coding__system.md) - The code system where the code is defined.
- * [➞version](coding__version.md) - The version of the code system.
- * [➞system](identifier__system.md) - The system or namespace that defines the identifier.
- * [➞type](identifier__type.md) - A code that defines the type of the identifier.
- * [➞value](identifier__value.md) - The value of the identifier, as defined by the system.
- * [➞comparator](quantity__comparator.md) - How to understand the value  . . .   < | <= | >= | >
- * [➞unit](quantity__unit.md) - Unit representation (e.g. mg, mL)
- * [➞value](quantity__value.md) - Numerical value (with implicit precision)
+ * [➞coding](slots/codeableConcept__coding.md) - A reference to a code defined by a terminology system
+ * [➞text](slots/codeableConcept__text.md) - A human language representation of the concept represented by the Coding
+ * [➞code](slots/coding__code.md) - The value of the code itself.
+ * [➞display](slots/coding__display.md) - A human-readable name for the code.
+ * [➞system](slots/coding__system.md) - The code system where the code is defined.
+ * [➞version](slots/coding__version.md) - The version of the code system.
+ * [➞system](slots/identifier__system.md) - The system or namespace that defines the identifier.
+ * [➞type](slots/identifier__type.md) - A code that defines the type of the identifier.
+ * [➞value](slots/identifier__value.md) - The value of the identifier, as defined by the system.
+ * [➞comparator](slots/quantity__comparator.md) - How to understand the value  . . .   < | <= | >= | >
+ * [➞unit](slots/quantity__unit.md) - Unit representation (e.g. mg, mL)
+ * [➞value](slots/quantity__value.md) - Numerical value (with implicit precision)
 
 ### Types
 

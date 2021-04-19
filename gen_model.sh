@@ -1,13 +1,17 @@
+#!/bin/bash
+#
+#   gen_model.sh - generates models for: python, jsonld, jsonld-context, json-schema
+#
+
 PARMS="--no-mergeimports"
 for filename in model/*.yaml; do
     basename=$(basename -- "$filename")
     BASE="${basename%.*}"
     echo Generating $filename
-    gen-python $PARMS model/$BASE.yaml > ccdhmodel/$BASE.py --log_level INFO
-    rm -rf docs/$BASE
-    gen-markdown $PARMS model/$BASE.yaml -d docs/$BASE -i
-    gen-jsonld $PARMS model/$BASE.yaml > jsonld/$BASE.jsonld
-    gen-jsonld-context $PARMS model/$BASE.yaml > jsonld/$BASE.context.jsonld
+    # PARMS="--no-mergeimports" triggers an error in gen-pythong
+    pipenv run gen-python model/$BASE.yaml > python/$BASE.py --log_level INFO
+    pipenv run gen-jsonld $PARMS model/$BASE.yaml > jsonld/$BASE.jsonld 
+    pipenv run gen-jsonld-context $PARMS model/$BASE.yaml > jsonld/$BASE.context.jsonld 
 done
-gen-json-schema $PARMS model/entities.yaml > json-schema/entities.json
-gen-jsonld-context $PARMS model/prefixes.yaml > includes/prefixes.context.jsonld
+pipenv run gen-json-schema $PARMS model/entities.yaml > json-schema/entities.json 
+pipenv run gen-jsonld-context $PARMS model/prefixes.yaml > includes/prefixes.context.jsonld 

@@ -86,7 +86,7 @@ ENV/
 # Jupyter
 .ipynb_checkpoints
 
-# Eclipse
+# Eclipsesudo apcd
 .project
 .classpath
 
@@ -97,3 +97,5 @@ ENV/
 .DS_Store
 
 env.lock
+
+*.log

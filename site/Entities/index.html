@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <title>Ccdh-Mvp schema - CRDC-H Documentation</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700" />
+
+  <link rel="stylesheet" href="../css/theme.css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" />
+  
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Ccdh-Mvp schema";
+    var mkdocs_page_input_path = "Entities/index.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <link rel="shortcut icon" href="../img/favicon.ico">
+  <script src="../js/custom.js" defer></script>
+  <link rel="stylesheet" href="../css/custom.css" />
+ 
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> CRDC-H Documentation</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="..">CCDH-MVP Schema</a>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Datatypes</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../Datatypes/">Datatypes schema</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Classes</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/classes/CodeableConcept/">Class: CodeableConcept</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/classes/Coding/">Class: Coding</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/classes/Identifier/">Class: Identifier</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/classes/Quantity/">Class: Quantity</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Slots</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/slots/codeableConcept__coding/">Slot: codeableConcept__coding</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/slots/codeableConcept__text/">Slot: codeableConcept__text</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/slots/coding__code/">Slot: coding__code</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/slots/coding__display/">Slot: coding__display</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/slots/coding__system/">Slot: coding__system</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/slots/coding__version/">Slot: coding__version</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/slots/identifier__system/">Slot: identifier__system</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/slots/identifier__type/">Slot: identifier__type</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/slots/identifier__value/">Slot: identifier__value</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/slots/quantity__comparator/">Slot: quantity__comparator</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/slots/quantity__unit/">Slot: quantity__unit</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/slots/quantity__value/">Slot: quantity__value</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Types</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Boolean/">Type: Boolean</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Date/">Type: Date</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Datetime/">Type: Datetime</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Decimal/">Type: Decimal</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Double/">Type: Double</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Float/">Type: Float</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Integer/">Type: Integer</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Ncname/">Type: Ncname</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Nodeidentifier/">Type: Nodeidentifier</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Objectidentifier/">Type: Objectidentifier</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/String/">Type: String</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Time/">Type: Time</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Uri/">Type: Uri</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Uriorcurie/">Type: Uriorcurie</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Datatypes/types/Url/">Type: Url</a>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Entities</span></p>
+                <ul class="current">
+                    <li class="toctree-l1 current"><a class="reference internal current" href="./">Ccdh-Mvp schema</a>
+    <ul class="current">
+    <li class="toctree-l2"><a class="reference internal" href="#classes">Classes</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#mixins">Mixins</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#slots">Slots</a>
+    </li>
+    <li class="toctree-l2"><a class="reference internal" href="#types">Types</a>
+        <ul>
+    <li class="toctree-l3"><a class="reference internal" href="#built-in">Built in</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#defined">Defined</a>
+    </li>
+        </ul>
+    </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Classes</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="classes/CodeableConcept/">Class: CodeableConcept</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="classes/Coding/">Class: Coding</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="classes/Entity/">Class: Entity</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="classes/Identifier/">Class: Identifier</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="classes/Patient/">Class: Patient</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="classes/Project/">Class: Project</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="classes/Quantity/">Class: Quantity</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="classes/ResearchSubject/">Class: ResearchSubject</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="classes/Specimen/">Class: Specimen</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Slots</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="slots/Patient_id/">Slot: Patient_id</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/Project_id/">Slot: Project_id</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/ResearchSubject_id/">Slot: ResearchSubject_id</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/Specimen_id/">Slot: Specimen_id</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/codeableConcept__coding/">Slot: codeableConcept__coding</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/codeableConcept__text/">Slot: codeableConcept__text</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/coding__code/">Slot: coding__code</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/coding__display/">Slot: coding__display</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/coding__system/">Slot: coding__system</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/coding__version/">Slot: coding__version</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/id/">Slot: id</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/identifier__system/">Slot: identifier__system</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/identifier__type/">Slot: identifier__type</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/identifier__value/">Slot: identifier__value</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/patient__identifier/">Slot: patient__identifier</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/patient__taxon/">Slot: patient__taxon</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/quantity__comparator/">Slot: quantity__comparator</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/quantity__unit/">Slot: quantity__unit</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/quantity__value/">Slot: quantity__value</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/researchSubject__associated_patient/">Slot: researchSubject__associated_patient</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/researchSubject__associated_project/">Slot: researchSubject__associated_project</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/researchSubject__identifier/">Slot: researchSubject__identifier</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/researchSubject__primary_disease_site/">Slot: researchSubject__primary_disease_site</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/researchSubject__primary_disease_type/">Slot: researchSubject__primary_disease_type</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__analyte_concentration/">Slot: specimen__analyte_concentration</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__analyte_concentration_method/">Slot: specimen__analyte_concentration_method</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__analyte_type/">Slot: specimen__analyte_type</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__associated_project/">Slot: specimen__associated_project</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__cellular_composition/">Slot: specimen__cellular_composition</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__current_volume/">Slot: specimen__current_volume</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__current_weight/">Slot: specimen__current_weight</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__derived_from_specimen/">Slot: specimen__derived_from_specimen</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__derived_from_subject/">Slot: specimen__derived_from_subject</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__general_tissue_morphology/">Slot: specimen__general_tissue_morphology</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__identifier/">Slot: specimen__identifier</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__matched_normal_flag/">Slot: specimen__matched_normal_flag</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__qualification_status_flag/">Slot: specimen__qualification_status_flag</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__source_material_type/">Slot: specimen__source_material_type</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__specific_tissue_morphology/">Slot: specimen__specific_tissue_morphology</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="slots/specimen__specimen_type/">Slot: specimen__specimen_type</a>
+                </li>
+    </ul>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Types</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="types/Boolean/">Type: Boolean</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Date/">Type: Date</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Datetime/">Type: Datetime</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Decimal/">Type: Decimal</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Double/">Type: Double</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Float/">Type: Float</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Integer/">Type: Integer</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Ncname/">Type: Ncname</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Nodeidentifier/">Type: Nodeidentifier</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Objectidentifier/">Type: Objectidentifier</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/String/">Type: String</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Time/">Type: Time</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Uri/">Type: Uri</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Uriorcurie/">Type: Uriorcurie</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="types/Url/">Type: Url</a>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+                <p class="caption"><span class="caption-text">Prefixes</span></p>
+                <ul>
+                    <li class="toctree-l1"><a class="reference internal" href="../Prefixes/">Prefixes schema</a>
+                    </li>
+                    <li class="toctree-l1"><a class="reference internal" href="#">Types</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Boolean/">Type: Boolean</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Date/">Type: Date</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Datetime/">Type: Datetime</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Decimal/">Type: Decimal</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Double/">Type: Double</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Float/">Type: Float</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Integer/">Type: Integer</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Ncname/">Type: Ncname</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Nodeidentifier/">Type: Nodeidentifier</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Objectidentifier/">Type: Objectidentifier</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/String/">Type: String</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Time/">Type: Time</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Uri/">Type: Uri</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../Prefixes/types/Uriorcurie/">Type: Uriorcurie</a>
+                </li>
+    </ul>
+                    </li>
+                </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">CRDC-H Documentation</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Entities &raquo;</li>
+        
+      
+    
+    <li>Ccdh-Mvp schema</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h1 id="ccdh-mvp-schema">Ccdh-Mvp schema</h1>
+<h3 id="classes">Classes</h3>
+<ul>
+<li><a href="classes/CodeableConcept/">CodeableConcept</a></li>
+<li><a href="classes/Coding/">Coding</a> - A structured representation of a coded/enumerated data value, that includes additional metadata about the code and code system.</li>
+<li><a href="classes/Entity/">Entity</a> - Any resource that has its own identifier
+     * <a href="classes/Patient/">Patient</a>
+     * <a href="classes/Project/">Project</a>
+     * <a href="classes/ResearchSubject/">ResearchSubject</a> - A research subject is the entity of interest in a research study, typically a human being or an animal, but can also be a device, group of humans or animals, or a tissue sample. Human research subjects are usually not traceable to a particular person to protect the subject’s privacy.
+     * <a href="classes/Specimen/">Specimen</a> - Any material taken as a sample from a biological entity (living or dead), or from a physical object or the environment. Specimens are usually collected as an example of their kind, often for use in some investigation.</li>
+<li><a href="classes/Identifier/">Identifier</a></li>
+<li><a href="classes/Quantity/">Quantity</a> - A structured object to represent an amount of something (e.g., weight, mass, length, duration of time) - including a value and unit.</li>
+</ul>
+<h3 id="mixins">Mixins</h3>
+<h3 id="slots">Slots</h3>
+<ul>
+<li><a href="slots/codeableConcept__coding/">➞coding</a> - A reference to a code defined by a terminology system</li>
+<li><a href="slots/codeableConcept__text/">➞text</a> - A human language representation of the concept represented by the Coding</li>
+<li><a href="slots/coding__code/">➞code</a> - The value of the code itself.</li>
+<li><a href="slots/coding__display/">➞display</a> - A human-readable name for the code.</li>
+<li><a href="slots/coding__system/">➞system</a> - The code system where the code is defined.</li>
+<li><a href="slots/coding__version/">➞version</a> - The version of the code system.</li>
+<li><a href="slots/id/">id</a>
+     * <a href="slots/Patient_id/">Patient➞id</a> - The 'logical' identifier of the entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system. The identified entity may have a different 'id' in a different system.
+     * <a href="slots/Project_id/">Project➞id</a>
+     * <a href="slots/ResearchSubject_id/">ResearchSubject➞id</a> - The 'logical' identifier of the entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system. The identified entity may have a different 'id' in a different system.
+     * <a href="slots/Specimen_id/">Specimen➞id</a> - The 'logical' identifier of the entity in the system of record, e.g. a UUID.  This 'id' is unique within a given system. The identified entity may have a different 'id' in a different system.</li>
+<li><a href="slots/identifier__system/">➞system</a> - The system or namespace that defines the identifier.</li>
+<li><a href="slots/identifier__type/">➞type</a> - A code that defines the type of the identifier.</li>
+<li><a href="slots/identifier__value/">➞value</a> - The value of the identifier, as defined by the system.</li>
+<li><a href="slots/patient__identifier/">➞identifier</a> - A 'business' identifier for the entity, typically as provided by an external system or authority, that persists across implementing systems. </li>
+<li><a href="slots/patient__taxon/">➞taxon</a> - The taxonomic group (e.g. species) of the patient.</li>
+<li><a href="slots/quantity__comparator/">➞comparator</a> - How to understand the value  . . .   &lt; | &lt;= | &gt;= | &gt;</li>
+<li><a href="slots/quantity__unit/">➞unit</a> - Unit representation (e.g. mg, mL)</li>
+<li><a href="slots/quantity__value/">➞value</a> - Numerical value (with implicit precision)</li>
+<li><a href="slots/researchSubject__associated_patient/">➞associated_patient</a> - A reference to the Patient that is this ResearchSubject</li>
+<li><a href="slots/researchSubject__associated_project/">➞associated_project</a> - A reference to the Project(s) of which this ResearchSubject is a member</li>
+<li><a href="slots/researchSubject__identifier/">➞identifier</a> - A 'business' identifier for the entity, typically as provided by an external system or authority, that persists across implementing systems  (i.e. a  'logical' identifier). Uses a specialized, complex 'Identifier' data type to capture information about the source of the business identifier. </li>
+<li><a href="slots/researchSubject__primary_disease_site/">➞primary_disease_site</a> - The text term used to describe the primary site of disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O). This categorization groups cases into general categories.</li>
+<li><a href="slots/researchSubject__primary_disease_type/">➞primary_disease_type</a> - The text term used to describe the type of malignant disease, as categorized by the World Health Organization's (WHO) International Classification of Diseases for Oncology (ICD-O). </li>
+<li><a href="slots/specimen__analyte_concentration/">➞analyte_concentration</a> - The concentration of an extracted analyte that is present in a specimen (specifically, in a specimen of type 'analyte', or an 'aliquot' derived from an analyte). e.g. the concentration of DNA in a specimen created through extracting DNA from a blood sample.</li>
+<li><a href="slots/specimen__analyte_concentration_method/">➞analyte_concentration_method</a> - The method used to determine the concentration of purified analyte  within a solution.</li>
+<li><a href="slots/specimen__analyte_type/">➞analyte_type</a> - When the specimen is of type 'analyte' or 'aliquot', this is the type of substance the analyte represents (e.g. DNA, RNA)</li>
+<li><a href="slots/specimen__associated_project/">➞associated_project</a> - The Project associated with the specimen.</li>
+<li><a href="slots/specimen__cellular_composition/">➞cellular_composition</a> - The cellular composition of the sample</li>
+<li><a href="slots/specimen__current_volume/">➞current_volume</a> - The current total volume of the specimen, at the time of recording.</li>
+<li><a href="slots/specimen__current_weight/">➞current_weight</a> - The current weight of the specimen, at the time of recording (as opposed to an initial weight before its processing or portioning).</li>
+<li><a href="slots/specimen__derived_from_specimen/">➞derived_from_specimen</a> - A source/parent specimen from which this one was directly derived.</li>
+<li><a href="slots/specimen__derived_from_subject/">➞derived_from_subject</a> - The Patient/ResearchSubject, or Biologically Derived Materal (e.g. a cell line, tissue culture, organoid) from which the specimen was directly or indirectly derived.</li>
+<li><a href="slots/specimen__general_tissue_morphology/">➞general_tissue_morphology</a> - A term describing at a high-level the kind of tissue collected in a specimen, with respect to disease status or proximity to tumor tissue (e.g. is it normal, abnormal, tumor, tumor-adjacent). </li>
+<li><a href="slots/specimen__identifier/">➞identifier</a> - A 'business' identifier  or accession number for the entity, typically as provided by an external system or authority, that persists across implementing systems  (i.e. a  'logical' identifier). </li>
+<li><a href="slots/specimen__matched_normal_flag/">➞matched_normal_flag</a> - A flag indicating that there is no matched normal aliquot for this case that can be used for variant calling purposes.</li>
+<li><a href="slots/specimen__qualification_status_flag/">➞qualification_status_flag</a> - A flag indicating whether the specimen is qualified or disqualified for data analysis in a study.</li>
+<li><a href="slots/specimen__source_material_type/">➞source_material_type</a> - The general kind of material from which the specimen was derived, indicating the physical nature of the source material. </li>
+<li><a href="slots/specimen__specific_tissue_morphology/">➞specific_tissue_morphology</a> - A term describing the specific pathology exhibited by the tissue in a specimen.</li>
+<li><a href="slots/specimen__specimen_type/">➞specimen_type</a> - The high-level type of the specimen, based on its how it has been derived from the original extracted sample. </li>
+</ul>
+<h3 id="types">Types</h3>
+<h4 id="built-in">Built in</h4>
+<ul>
+<li><strong>Bool</strong></li>
+<li><strong>Decimal</strong></li>
+<li><strong>ElementIdentifier</strong></li>
+<li><strong>NCName</strong></li>
+<li><strong>NodeIdentifier</strong></li>
+<li><strong>URI</strong></li>
+<li><strong>URIorCURIE</strong></li>
+<li><strong>XSDDate</strong></li>
+<li><strong>XSDDateTime</strong></li>
+<li><strong>XSDTime</strong></li>
+<li><strong>float</strong></li>
+<li><strong>int</strong></li>
+<li><strong>str</strong></li>
+</ul>
+<h4 id="defined">Defined</h4>
+<ul>
+<li><a href="types/Boolean/">Boolean</a>  (<strong>Bool</strong>)  - A binary (true or false) value</li>
+<li><a href="types/Date/">Date</a>  (<strong>XSDDate</strong>)  - a date (year, month and day) in an idealized calendar</li>
+<li><a href="types/Datetime/">Datetime</a>  (<strong>XSDDateTime</strong>)  - The combination of a date and time</li>
+<li><a href="types/Decimal/">Decimal</a>  (<strong>Decimal</strong>)  - A real number with arbitrary precision that conforms to the xsd:decimal specification</li>
+<li><a href="types/Double/">Double</a>  (<strong>float</strong>)  - A real number that conforms to the xsd:double specification</li>
+<li><a href="types/Float/">Float</a>  (<strong>float</strong>)  - A real number that conforms to the xsd:float specification</li>
+<li><a href="types/Integer/">Integer</a>  (<strong>int</strong>)  - An integer</li>
+<li><a href="types/Ncname/">Ncname</a>  (<strong>NCName</strong>)  - Prefix part of CURIE</li>
+<li><a href="types/Nodeidentifier/">Nodeidentifier</a>  (<strong>NodeIdentifier</strong>)  - A URI, CURIE or BNODE that represents a node in a model.</li>
+<li><a href="types/Objectidentifier/">Objectidentifier</a>  (<strong>ElementIdentifier</strong>)  - A URI or CURIE that represents an object in the model.</li>
+<li><a href="types/String/">String</a>  (<strong>str</strong>)  - A character string</li>
+<li><a href="types/Time/">Time</a>  (<strong>XSDTime</strong>)  - A time object represents a (local) time of day, independent of any particular day</li>
+<li><a href="types/Uri/">Uri</a>  (<strong>URI</strong>)  - a complete URI</li>
+<li><a href="types/Uriorcurie/">Uriorcurie</a>  (<strong>URIorCURIE</strong>)  - a URI or a CURIE</li>
+<li><a href="types/Url/">Url</a>  (<a href="types/String/">String</a>) </li>
+</ul>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="classes/CodeableConcept/" class="btn btn-neutral float-right" title="Class: CodeableConcept">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../Datatypes/types/Url/" class="btn btn-neutral" title="Type: Url"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../Datatypes/types/Url/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="classes/CodeableConcept/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '..';</script>
+    <script src="../js/theme.js" defer></script>
+      <script src="../search/main.js" defer></script>
+    <script defer>
+        window.onload = function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        };
+    </script>
+
+</body>
+</html>
