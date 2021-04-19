@@ -17,13 +17,12 @@
 From the main directory, run ```gen_model.sh```
 
 ## Build a ReadTheDocs Site
-From the main directory, run ```gen_markdown.sh```
 
+* From the project main directory, run ```gen_markdown.sh```
 * LinkML will generate the required markdown in the docs/ directory.
 * Mkdocs will generate the website docs using the markdown files from the previous step.
 * The new ReadTheDocs site will be built in the site/ directory.
 * Access the new website with the webserver of your choice.
-
 
 #### Changes from the original cancerDHC/ccdhmodel
 

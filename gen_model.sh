@@ -3,6 +3,17 @@
 #   gen_model.sh - generates models for: python, jsonld, jsonld-context, json-schema
 #
 
+echo "Begin gen_model.sh..."
+
+# Make sure pipenv install has been run
+INSTALLED=$(pipenv run pip list | grep linkml)
+if [ -z "$INSTALLED" ]; then
+    echo "'pipenv install' has not run.  Installing now."
+    pipenv install
+fi
+
+echo "Generating output from models."
+
 PARMS="--no-mergeimports"
 for filename in model/*.yaml; do
     basename=$(basename -- "$filename")
