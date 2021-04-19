@@ -7,12 +7,8 @@ PARMS="--no-mergeimports"
 
 echo "Begin gen_markdown.sh..."
 
-# Make sure pipenv install has been run.
-INSTALLED=$(pipenv run pip list | grep linkml)
-if [ -z "$INSTALLED" ]; then
-    echo "'pipenv install' has not run.  Installing now."
-    pipenv install
-fi
+# Confirm pipenv install has run.
+bash ./install_env.sh
 
 echo "Cleanup existing model docs."
 for modeldir in `ls -d docs/*/`; do

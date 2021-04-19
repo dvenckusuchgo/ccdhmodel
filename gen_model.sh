@@ -6,11 +6,7 @@
 echo "Begin gen_model.sh..."
 
 # Make sure pipenv install has been run
-INSTALLED=$(pipenv run pip list | grep linkml)
-if [ -z "$INSTALLED" ]; then
-    echo "'pipenv install' has not run.  Installing now."
-    pipenv install
-fi
+bash ./install_env.sh
 
 echo "Generating output from models."
 
