@@ -1,5 +1,5 @@
 
-# Ccdh-Mvp schema
+# Entities schema
 
 
 
